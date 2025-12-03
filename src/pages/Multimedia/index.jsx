@@ -1,56 +1,29 @@
 import "./Multimedia.css";
 
 export default function Multimedia() {
-  const videos = [
-    {
-      id: 1,
-      titulo: "Faena histórica de Morante",
-      miniatura: "/Galeria/toreo/stephane-yaich-eAE9ZYPZXrU-unsplash.jpg",
-    },
-    {
-      id: 2,
-      titulo: "Recorte espectacular en Zaragoza",
-      miniatura: "/Galeria/toreo/paul-kenny-mcgrath-kf_fCURx3_E-unsplash.jpg",
-    },
-    {
-      id: 3,
-      titulo: "El toro 'Cobradiezmos'",
-      miniatura: "/Galeria/toros/Ftoro11.png",
-    }
-  ];
 
   const fotos = [
+    "/Galeria/toreo/stephane-yaich-eAE9ZYPZXrU-unsplash.jpg",
+    "/Galeria/toreo/paul-kenny-mcgrath-PY0mtUTVX9I-unsplash.jpg",
     "/Galeria/plazas/pierre-antona-H0vA-KTG9eA-unsplash.jpg",
-    "/Galeria/plazas/pexels-amat-30403107.jpg",
-    "/Galeria/plazas/pexels-jcosta-20877142.jpg",
     "/Galeria/toreros/Ftorerook3.jpg",
-    "/Galeria/toreo/wallpaperbetter.com_1920x1080.jpg"
+    "/Galeria/toros/Ftoro09.png",
+    "/Galeria/plazas/pexels-quentin-martinez-2147503099-29749222.jpg",
+    "/Galeria/toreros/gavia-FgbUS58qORc-unsplash.jpg",
+    "/Galeria/toros/Ftoro20.jpg"
   ];
 
   return (
     <div className="multimedia-container">
-      
-      <h1 className="titulo">📸 & 🎥 Multimedia</h1>
+      <h1 className="titulo">🎥 Multimedia</h1>
 
-      <h2 className="sub">Vídeos</h2>
-      <div className="multimedia-grid">
-        {videos.map(v => (
-          <div key={v.id} className="card">
-            <img src={v.miniatura} alt={v.titulo} />
-            <p>{v.titulo}</p>
+      <div className="grid">
+        {fotos.map((img, i) => (
+          <div key={i} className="item">
+            <img src={img} alt={"foto " + i} />
           </div>
         ))}
       </div>
-
-      <h2 className="sub">Galería Fotográfica</h2>
-      <div className="multimedia-grid">
-        {fotos.map((f, i) => (
-          <div key={i} className="card">
-            <img src={f} alt="Foto" />
-          </div>
-        ))}
-      </div>
-
     </div>
   );
 }

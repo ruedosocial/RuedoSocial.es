@@ -11,7 +11,7 @@ import RuedoRank from "./pages/RuedoRank.jsx";
 import Clasificacion from "./pages/Clasificacion/index.jsx";
 import Resultados from "./pages/Resultados/index.jsx";
 import Noticias from "./pages/Noticias/index.jsx";
-import Multimedia from "./pages/Multimedia.jsx";
+import Multimedia from "./pages/Multimedia/index.jsx";
 import Ajustes from "./pages/Ajustes.jsx";
 import Perfil from "./pages/Perfil/index.jsx";
 
