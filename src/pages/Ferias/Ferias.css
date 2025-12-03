@@ -1,0 +1,50 @@
+.ferias-container {
+  padding: 40px;
+  color: white;
+}
+
+.ferias-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.ferias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+}
+
+.feria-card {
+  background: rgba(0,0,0,0.55);
+  border-radius: 12px;
+  padding: 15px;
+  backdrop-filter: blur(4px);
+  text-align: center;
+  transition: 0.25s;
+}
+
+.feria-card:hover {
+  transform: scale(1.05);
+  background: rgba(0,0,0,0.7);
+}
+
+.feria-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.feria-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  color: #ffdd55;
+}
+
+.feria-card p {
+  font-size: 16px;
+  opacity: 0.85;
+}

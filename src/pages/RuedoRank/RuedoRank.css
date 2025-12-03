@@ -1,0 +1,43 @@
+.rank-container {
+  padding: 40px;
+  color: white;
+}
+
+.rank-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(0,0,0,0.55);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.rank-table th {
+  background: rgba(0,0,0,0.7);
+  padding: 12px;
+  text-align: left;
+  color: #d4af37;
+  font-size: 20px;
+}
+
+.rank-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  font-size: 18px;
+}
+
+.rank-table tr:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.rank-img {
+  width: 85px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+}

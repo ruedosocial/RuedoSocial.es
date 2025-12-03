@@ -1,0 +1,34 @@
+.result-container {
+  padding: 40px;
+  color: white;
+}
+
+.result-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.result-card {
+  background: rgba(0,0,0,0.55);
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 5px solid #d4af37;
+}
+
+.result-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffdd55;
+}
+
+.result-card p {
+  margin: 4px 0;
+  font-size: 18px;
+}

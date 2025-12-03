@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  background: rgba(40,40,40,0.55);
+  backdrop-filter: blur(4px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGO */
+.navbar-left {
+  position: absolute;
+  left: 20px;
+}
+
+.navbar-logo {
+  font-size: 20px;         /* más pequeño */
+  font-weight: 700;
+  color: #c83a3a;          /* rojo claro */
+  text-decoration: none;
+}
+
+/* NAV ITEMS CENTRADOS */
+.navbar-center {
+  display: flex;
+  gap: 35px;
+}
+
+/* NAV LINKS */
+.navbar-center a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+  color: #b8941f;
+}
+
+.navbar-center a:hover {
+  color: #e4c04d;
+}

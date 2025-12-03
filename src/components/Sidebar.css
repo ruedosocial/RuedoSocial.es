@@ -1,0 +1,32 @@
+.sidebar {
+  width: 190px;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background: rgba(40,40,40,0.55);
+  backdrop-filter: blur(4px);
+  padding-top: 10px;
+  z-index: 900;
+}
+
+.sidebar ul {
+  list-style: none !important;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none !important;
+  color: #d4af37;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  color: #ffdd55;
+}

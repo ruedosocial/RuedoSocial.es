@@ -1,0 +1,18 @@
+#global-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.content {
+  margin-left: 220px;
+  margin-top: 80px;
+  padding: 20px;
+  color: white;
+}
